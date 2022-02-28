@@ -27,7 +27,6 @@ const deadLine = document.querySelector('.deadline');
 const items = document.querySelectorAll('.deadline-format h4');
 
 let futureDate = new Date(2022, 8, 10, 17, 30, 0);
-console.log(futureDate);
 
 const year = futureDate.getFullYear();
 let month = futureDate.getMonth();
