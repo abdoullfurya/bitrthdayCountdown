@@ -38,7 +38,7 @@ let minutes = futureDate.getMinutes();
 let seconds = futureDate.getSeconds();
 let day = weekdays[futureDate.getDay()];
 
-giveAway.textContent = `The giveaway ends on ${day}, ${date} ${month} ${year} ${hours}:${minutes}`;
+giveAway.textContent = `My birthday is in ${day}, ${date} ${month} ${year} ${hours}:${minutes}`;
 
 //futureTime in ms
 
